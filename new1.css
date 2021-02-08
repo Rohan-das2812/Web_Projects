@@ -1,0 +1,51 @@
+.img{
+	border: 10px  solid white;
+
+
+	}
+
+
+.pass{font-family: Times New Roman;
+	font-size: 20px;
+	
+    }
+
+.n{
+	font-family:monotype corsiva;
+}
+
+
+.pic{ 
+	
+	float:right;
+	height:80px;
+	width:250px; 
+	
+}
+
+.pic1{ 
+	
+	float:right;
+	height:80px;
+	width:250px; 
+	display: block;
+}
+.intro{
+	background-color:white;
+}
+.head{
+	float: left;
+}
+.h1{
+	float: left;
+}
+
+.dop{ 
+	
+	 border: 5px  solid black;
+	}
+
+.as{color=red;
+		font-family:Comic Sans MS;
+}
+	}

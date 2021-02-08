@@ -1,0 +1,176 @@
+create table signup(name varchar(20) NOT NULL,bg varchar(3),gender varchar(6) NOT NULL,
+age int NOT NULL,mob varchar(11) NOT NULL,state varchar(30) NOT NULL,dob date NOT NULL,email varchar(50) NOT NULL PRIMARY KEY,password varchar(15) NOT NULL);
+
+
+ create table blood(bg varchar[5],unit int);
+create table request(req_id int primary key not null,email varchar(50) not null,type int not null,status int not null,bg varchar(3) not null,units int not null,req_date date not null);
+
+create table feedback(name varchar(20),email varchar(30),feedback varchar(150));
+
+
+create table h(state varchar(50),hname varchar(30),haddress varchar(100),contact_no varchar(12));
+
+insert into h values('Andhra Pradesh','King jorge hospital','Beachroad Vizag','9098745216');
+insert into h values('Andhra Pradesh','Erangel Care Hospital','Beachroad Vizag','9098745216');
+insert into h values('Andhra Pradesh','Miramar Nursing and Care','Beachroad Vizag','9098745216');
+insert into h values('Andhra Pradesh','Georgopol City Care Hospital','Beachroad Vizag','9098745216');
+
+insert into h values('Arunachal Pradesh','Lower Dibang Valley District Hospital','Itanagar','9095454676');
+insert into h values('Arunachal Pradesh','West Kameng District Hospital','Itanagar','9095454676');
+insert into h values('Arunachal Pradesh','Papumpare District Hospital','Itanagar','9095454676');
+insert into h values('Arunachal Pradesh','Tirap District Hospital','Itanagar','9095454676');
+
+insert into h values(Assam','Sanjeevani Hospital','Dispur','9073921029');
+insert into h values(Assam','Aditya Hospital','Dispur','9073921029');
+insert into h values(Assam','APPOLO Hospital','Dispur','9073921029');
+insert into h values(Assam','Deys Nursing Home','Dispur','9073921029');
+
+insert into h values('Bihar','Patna General Hospital','Patna_Near Eco park','946435789');
+insert into h values('Bihar','Biharshariief Hospital','Patna_Near Eco park','946435789');
+insert into h values('Bihar','Gitanjali MD Hospital','Patna_Near Eco park','946435789');
+insert into h values('Bihar','prismork Delux Hospital','Patna_Near Eco park','946435789');
+
+insert into h values('Chhatisgarh','Dipti Raj Hospital','Raipur Main Road','9095454676');
+insert into h values('Chhatisgarh','PIRANA Special Hospital','Raipur Main Road','9095454676');
+insert into h values('Chhatisgarh','Nirvana Hospital','Raipur Main Road','9095454676');
+insert into h values('Chhatisgarh','Raipur GOVT. Hospital','Raipur Main Road','9095454676');
+
+
+insert into h values('Delhi','AIIMS Hospital','NCR Delhi sec_23','4588942310');
+insert into h values('Delhi','APPOLO Hospital','NCR Delhi sec_23','4588942310');
+insert into h values('Delhi','SFD Hospital','NCR Delhi sec_23','4588942310');
+insert into h values('Delhi','ST Maria Hospital','NCR Delhi sec_23','4588942310');
+
+insert into h values('Goa','ST stephans Hospital','Panaji Capital City','909545655');
+insert into h values('Goa','Dombivli Hospital','Panaji Capital City','909545655');
+insert into h values('Goa','LM nursing Home','Panaji Capital City','909545655');
+insert into h values('Goa','Ramiyaas Hospital','Panaji Capital City','909545655');
+
+insert into h values('Gujarat','Gandhi National Hospital','Itanagar','9095454676');
+insert into h values('Gujarat','Nornala spl Hospital','Itanagar','9095454676');
+insert into h values('Gujarat','NH Narayana Hospital','Itanagar','9095454676');
+insert into h values('Gujarat','Healthy Care Nursing Home','Itanagar','9095454676');
+
+insert into h values('Hariyana','Sonipat District Hospital','Hansii Road','7584834904');
+insert into h values('Hariyana','Panipat VAts Hospital','Hansii Road','7584834904');
+insert into h values('Hariyana','Gurgaon Hospital','Hansii Road','7584834904');
+insert into h values('Hariyana','General Hospital','Hansii Road','7584834904');
+
+
+insert into h values('Himachal Pradesh','Narayana Hospital','SEC-44','5643434526');
+insert into h values('Himachal Pradesh','APPOLO Hospital','SEC-44','5643434526');
+insert into h values('Himachal Pradesh','SRM Hospital','SEC-44','5643434526');
+insert into h values('Himachal Pradesh','Dayanand Care Hospital','SEC-44','5643434526');
+
+insert into h values('J&K','vaishno_Devi Hospital','Katra','53535335344');
+insert into h values('J&K','Jammu GOVT_Hospital','Katra','53535335344');
+insert into h values('J&K','Kranti general Hospital','Katra','53535335344');
+insert into h values('J&K','Pak Ban Hospital','Katra','53535335344');
+
+insert into h values('Jharkhand','BGH Hospital','Sec-4/g','9994522111');
+insert into h values('Jharkhand','Sai Hospital','Sec-4/g','9994522111');
+insert into h values('Jharkhand','Sassaram Hospital','Sec-4/g','9994522111');
+insert into h values('Jharkhand','Teritary Hospital','Sec-4/g','9994522111');
+
+insert into h values('Karnataka','NH Narayana Hospital','yualk City Area','5785458584');
+insert into h values('Karnataka','NH Narayana Hospital','yualk City Area','5785458584');
+insert into h values('Karnataka','NH Narayana Hospital','yualk City Area','5785458584');
+insert into h values('Karnataka','NH Narayana Hospital','yualk City Area','5785458584');
+
+insert into h values('Kerala','ELipoouraa District Hospital','Yupichendar Road','3324543454');
+insert into h values('Kerala','ELipoouraa District Hospital','Yupichendar Road','3324543454');
+insert into h values('Kerala','ELipoouraa District Hospital','Yupichendar Road','3324543454');
+insert into h values('Kerala','ELipoouraa District Hospital','Yupichendar Road','3324543454');
+
+insert into h values('Maharasthra','APPOLO Hospital','Near Marine Line','9536427622');
+insert into h values('Maharasthra','APPOLO Hospital','Near Marine Line','9536427622');
+insert into h values('Maharasthra','APPOLO Hospital','Near Marine Line','9536427622');
+insert into h values('Maharasthra','APPOLO Hospital','Near Marine Line','9536427622');
+
+insert into h values('Manipur','Marry Hospital','Gersaoon City','9095454676');
+insert into h values('Manipur','Marry Hospital','Gersaoon City','9095454676');
+insert into h values('Manipur','Marry Hospital','Gersaoon City','9095454676');
+insert into h values('Manipur','Marry Hospital','Gersaoon City','9095454676');
+
+insert into h values('Meghalaya','APPOLO Hospital','Imphal Main Market_67','9095454676');
+insert into h values('Meghalaya','APPOLO Hospital','Imphal Main Market_67','9095454676');
+insert into h values('Meghalaya','APPOLO Hospital','Imphal Main Market_67','9095454676');
+insert into h values('Meghalaya','APPOLO Hospital','Imphal Main Market_67','9095454676');
+
+insert into h values('Mizoram','Winters Rossy Hospital','frinlulaa_road Near Hills Garden','909500000');
+insert into h values('Mizoram','Winters Rossy Hospital','frinlulaa_road Near Hills Garden','909500000');
+insert into h values('Mizoram','Winters Rossy Hospital','frinlulaa_road Near Hills Garden','909500000');
+insert into h values('Mizoram','Winters Rossy Hospital','frinlulaa_road Near Hills Garden','909500000');
+
+insert into h values('Nagaland','Susaakiie General Hospital','koaeka Road','3495454621');
+insert into h values('Nagaland','Susaakiie General Hospital','koaeka Road','3495454621');
+insert into h values('Nagaland','Susaakiie General Hospital','koaeka Road','3495454621');
+insert into h values('Nagaland','Susaakiie General Hospital','koaeka Road','3495454621');
+
+insert into h values('Odisha','Seven Hills Hospital','Rourkela','9383889090');
+insert into h values('Odisha','Seven Hills Hospital','Rourkela','9383889090');
+insert into h values('Odisha','Seven Hills Hospital','Rourkela','9383889090');
+insert into h values('Odisha','Seven Hills Hospital','Rourkela','9383889090');
+
+insert into h values('Punjab','Amritsar City HOspital','Ludhiana Road','8788654566');
+insert into h values('Punjab','Amritsar City HOspital','Ludhiana Road','8788654566');
+insert into h values('Punjab','Amritsar City HOspital','Ludhiana Road','8788654566');
+insert into h values('Punjab','Amritsar City HOspital','Ludhiana Road','8788654566');
+
+insert into h values('Rajasthan','Fortis Hospital','Jaipur Pink City','9636657567');
+insert into h values('Rajasthan','Fortis Hospital','Jaipur Pink City','9636657567');
+insert into h values('Rajasthan','Fortis Hospital','Jaipur Pink City','9636657567');
+insert into h values('Rajasthan','Fortis Hospital','Jaipur Pink City','9636657567');
+
+insert into h values('Sikkim',' Rays Hospital','Gangtok Main Road NH_13','9095454676');
+insert into h values('Sikkim',' Rays Hospital','Gangtok Main Road NH_13','9095454676');
+insert into h values('Sikkim',' Rays Hospital','Gangtok Main Road NH_13','9095454676');
+insert into h values('Sikkim',' Rays Hospital','Gangtok Main Road NH_13','9095454676');
+
+insert into h values('T&N','Chennai Tiruchendur District Hospital','Goomagaon','921323456');
+insert into h values('T&N','Chennai Tiruchendur District Hospital','Goomagaon','921323456');
+insert into h values('T&N','Chennai Tiruchendur District Hospital','Goomagaon','921323456');
+insert into h values('T&N','Chennai Tiruchendur District Hospital','Goomagaon','921323456');
+
+
+insert into h values('Telangana','Frank Star Govt. Hospital','Sec_23 City mart','5656676789');
+insert into h values('Telangana','Frank Star Govt. Hospital','Sec_23 City mart','5656676789');
+insert into h values('Telangana','Frank Star Govt. Hospital','Sec_23 City mart','5656676789');
+insert into h values('Telangana','Frank Star Govt. Hospital','Sec_23 City mart','5656676789');
+
+
+
+
+insert into h values('Tripura','Chang-Hia Rosse Valley Hospital','Itanagar','9095749032');
+insert into h values('Tripura','Chang-Hia Rosse Valley Hospital','Itanagar','9095749032');
+insert into h values('Tripura','Chang-Hia Rosse Valley Hospital','Itanagar','9095749032');
+insert into h values('Tripura','Chang-Hia Rosse Valley Hospital','Itanagar','9095749032');
+
+insert into h values('UP','Sabdrajan General Hospital','Itanagar','909000546');
+insert into h values('UP','Sabdrajan General Hospital','Itanagar','909000546');
+insert into h values('UP','Sabdrajan General Hospital','Itanagar','909000546');
+insert into h values('UP','Sabdrajan General Hospital','Itanagar','909000546');
+
+
+insert into h values('Uttrakhand','Om sai Ram Hospital','Near Kashi Road Area','9095454676');
+insert into h values('Uttrakhand','Om sai Ram Hospital','Near Kashi Road Area','9095454676');
+insert into h values('Uttrakhand','Om sai Ram Hospital','Near Kashi Road Area','9095454676');
+insert into h values('Uttrakhand','Om sai Ram Hospital','Near Kashi Road Area','9095454676');
+
+insert into h values('W.B.','Fortis Hospital','Saltlake','7890494045');
+insert into h values('W.B.','Fortis Hospital','Saltlake','7890494045');
+insert into h values('W.B.','Fortis Hospital','Saltlake','7890494045');
+insert into h values('W.B.','Fortis Hospital','Saltlake','7890494045');
+
+
+
+
+insert into blood values('A+',10);
+insert into blood values('A-',10);
+insert into blood values('B+',10);
+insert into blood values('B-',10);
+insert into blood values('O+',10);
+insert into blood values('O-',10);
+insert into blood values('AB+',10);
+insert into blood values('AB-',10);
+
